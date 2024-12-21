@@ -4,9 +4,16 @@ It's pretty basic, with time i'll be upgrading.
 
 ## Keys
 ### General
+**documents**\
 `<leader>c` - close file\
-`<leader>p` - see plugins options\
-`<leader>/` - comment code
+`<leader>ld` - document diagnostics\
+`<leader>lw` - workflow diagnostics
+
+**Text/code**\
+`<leader>/` - comment code\
+`<leader>lr` - rename all\
+`<leader>lf` - format code
+
 
 ### Harpoon
 `<leader>A` - add file\
@@ -19,3 +26,6 @@ It's pretty basic, with time i'll be upgrading.
 `<leader>fg` - grep strings (in all files)\
 `<leader>fb` - bugffers (open pages)\
 `<leader>fh` - help tags
+
+### Plugins
+`<leader>p` - see plugins options
