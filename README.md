@@ -3,13 +3,12 @@
 It's pretty basic, with time i'll be upgrading.
 
 ## Keys
-### General
-**documents**\
+### documents
 `<leader>c` - close file\
 `<leader>ld` - document diagnostics\
 `<leader>lw` - workflow diagnostics
 
-**Text/code**\
+### Text/code
 `<leader>/` - comment code\
 `<leader>lr` - rename all\
 `<leader>lf` - format code
