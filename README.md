@@ -11,8 +11,9 @@ It's pretty basic, with time i'll be upgrading.
 ### Text/code
 `<leader>/` - comment code\
 `<leader>lr` - rename all\
-`<leader>lf` - format code
-
+`<leader>lf` - format code\
+`<leader>ci{` - change inside brackets\
+`<leader>ciw` - change current text 
 
 ### Harpoon
 `<leader>A` - add file\
