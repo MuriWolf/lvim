@@ -15,7 +15,7 @@ vim.opt.wrap = true -- wrap lines
 vim.opt.foldmethod = "manual"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
-lvim.colorscheme = "tokyonight-night"
+lvim.colorscheme = "rose-pine"
 
 lvim.builtin.which_key.mappings["t"] = {
   name = "+Terminal",
@@ -27,8 +27,18 @@ lvim.builtin.which_key.mappings["t"] = {
 lvim.plugins = {
   { "ThePrimeagen/vim-be-good", cmd = { "VimBeGood" } },
   { "nvim-treesitter/nvim-treesitter-angular" },
+  { "theprimeagen/harpoon" },
   {
-    "theprimeagen/harpoon"
+    "rose-pine/neovim",
+    name = "rose-pine",
+    config = function ()
+      require("rose-pine").setup({
+        highlight_groups = {
+          Normal = { bg = "#000000" },
+          NormalNC = { bg = "#000000" }
+       }
+      })
+    end
   },
   {
     "folke/tokyonight.nvim",
