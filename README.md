@@ -27,11 +27,11 @@ It's pretty basic, with time i'll be upgrading.
     </tr>
   <tr>
       <td><kbd>&#60;leader&#62;lr</kbd></td>
-      <td>format code</td>
+      <td>rename all</td>
     </tr>
    <tr>
       <td><kbd>&#60;leader&#62;lf</kbd></td>
-      <td>workflow diagnostics</td>
+      <td>format code</td>
     </tr>
      <tr>
       <td><kbd>&#60;leader&#62;ci{</kbd></td>
