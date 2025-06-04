@@ -41,6 +41,14 @@ It's pretty basic, with time i'll be upgrading.
       <td><kbd>&#60;leader&#62;ciw</kbd></td>
       <td>change current text</td>
     </tr>
+    <tr>
+      <td> `%s/{search}/{replace}/g` </td>
+      <td>Vim's builtin method to replace</td>
+    </tr>
+       <tr>
+      <td>`%s/{search}/{replace}/gc`</td>
+      <td>same but with confirmation on each one</td>
+    </tr>
 </table>
 
 ### Harpoon
