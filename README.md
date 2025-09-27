@@ -55,11 +55,11 @@ It's pretty basic, with time i'll be upgrading.
 ### Numbers
 <table>
     <tr>
-      <td><kbd>&#60;ctrl&#62;a</kbd></td>
+      <td><kbd>&#60;ctrl&#62;x</kbd></td>
       <td>Increase number (can pass amount)</td>
     </tr>
     <tr>
-      <td><kbd>&#60;ctrl&#62;x</kbd></td>
+      <td><kbd>&#60;ctrl&#62;a</kbd></td>
       <td>Decrease number (can pass amount)</td>
     </tr>
 </table>
