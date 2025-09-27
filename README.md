@@ -42,12 +42,25 @@ It's pretty basic, with time i'll be upgrading.
       <td>change current text</td>
     </tr>
     <tr>
-      <td> `%s/{search}/{replace}/g` </td>
+      <td><code>%s/{search}/{replace}/g</code></td>
       <td>Vim's builtin method to replace</td>
     </tr>
-       <tr>
-      <td>`%s/{search}/{replace}/gc`</td>
+    <tr>
+      <td><code>%s/{search}/{replace}/gc</code></td>
       <td>same but with confirmation on each one</td>
+    </tr>
+</table>
+
+
+### Numbers
+<table>
+    <tr>
+      <td><kbd>&#60;ctrl&#62;a</kbd></td>
+      <td>Increase number (can pass amount)</td>
+    </tr>
+    <tr>
+      <td><kbd>&#60;ctrl&#62;x</kbd></td>
+      <td>Decrease number (can pass amount)</td>
     </tr>
 </table>
 
